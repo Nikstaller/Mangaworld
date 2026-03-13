@@ -1,0 +1,153 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#0f0f14;
+color:white;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:#12121a;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#ff2a6d;
+}
+
+/* BANNER */
+
+.banner{
+position:relative;
+}
+
+.banner img{
+width:100%;
+height:400px;
+object-fit:cover;
+}
+
+.banner-text{
+position:absolute;
+top:50%;
+left:10%;
+transform:translateY(-50%);
+}
+
+.btn{
+display:inline-block;
+margin-top:10px;
+padding:10px 20px;
+background:#ff2a6d;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+/* CARDS */
+
+.destaque{
+padding:40px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:20px;
+}
+
+.card{
+background:#1c1c28;
+padding:15px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.card img{
+width:200px;
+border-radius:10px;
+}
+
+.card:hover{
+transform:scale(1.08);
+}
+
+/* GALERIA */
+
+.galeria{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+padding:40px;
+}
+
+.manga-card{
+background:#1c1c28;
+padding:15px;
+border-radius:10px;
+text-align:center;
+transition:0.3s;
+}
+
+.manga-card img{
+width:100%;
+border-radius:10px;
+}
+
+.manga-card:hover{
+transform:scale(1.05);
+}
+
+/* CADASTRO */
+
+.cadastro{
+text-align:center;
+padding:50px;
+}
+
+input{
+display:block;
+margin:10px auto;
+padding:12px;
+width:250px;
+border:none;
+border-radius:5px;
+}
+
+button{
+padding:12px 25px;
+background:#ff2a6d;
+border:none;
+color:white;
+cursor:pointer;
+border-radius:5px;
+}
+
+button:hover{
+background:#ff4f87;
+}
+
+footer{
+background:#12121a;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
